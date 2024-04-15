@@ -1,0 +1,14 @@
+[gpg]
+	format = ssh
+[user]
+	signingkey = /home/zaaz/.ssh/id_signGit.pub
+	email = petrus.george.leal@gmail.com
+	name = PetrusGeorge
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /home/zaaz/.config/git/allowed_signers
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
