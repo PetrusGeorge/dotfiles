@@ -12,7 +12,7 @@ map("n", "<leader>ka", "<cmd> qall! <CR>", { desc = "Quit neovim" })
 map("n", "<leader>tn", "<cmd> tabnew <CR>", { desc = "Create new tab" })
 map("n", "<leader>tc", "<cmd> tabclose <CR>", { desc = "Close current tab" })
 map("n", "<leader><tab>", "<cmd> tabnext <CR>", { desc = "Go to next tab" })
-map("n", "<leader>p>tab>", "<cmd> tabprevious <CR>", { desc = "Go to previous tab" })
+map("n", "<leader>p<tab>", "<cmd> tabprevious <CR>", { desc = "Go to previous tab" })
 
 -- Dap
 map("n", "<leader>db", "<cmd> DapToggleBreakpoint <CR>", { desc = "Add breakpoint at line" })

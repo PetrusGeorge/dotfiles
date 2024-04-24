@@ -10,6 +10,13 @@ local options = {
     server = {
         on_attach = on_attach,
         capabilites = capabilites,
+        settings = {
+            ["rust-analyzer"] = {
+                check= {
+                    command = "clippy"
+                }
+            }
+        }
     },
     dap = {
         adapter = require("rust-tools.dap").get_codelldb_adapter(codelldb_path, liblldb_path),

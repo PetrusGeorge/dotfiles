@@ -20,7 +20,7 @@ dap.configurations.cpp = {
         cwd = "${workspaceFolder}",
         stopOnEntry = false,
         args = function()
-            local argument_string = vim.fn.input "Program arguments: "
+            local argument_string = vim.fn.input("Program arguments: ", "", "file")
             return vim.fn.split(argument_string, " ", true)
         end,
     },
@@ -37,7 +37,7 @@ dap.configurations.c = {
         cwd = "${workspaceFolder}",
         stopOnEntry = false,
         args = function()
-            local argument_string = vim.fn.input "Program arguments: "
+            local argument_string = vim.fn.input("Program arguments: ", "", "file")
             return vim.fn.split(argument_string, " ", true)
         end,
     },
