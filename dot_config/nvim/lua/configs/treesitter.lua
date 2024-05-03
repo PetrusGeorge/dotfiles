@@ -7,6 +7,7 @@ local options = {
         "python",
         "vim",
         "vimdoc",
+        "asm",
     },
 
     highlight = {
