@@ -12,11 +12,11 @@ local options = {
         capabilites = capabilites,
         settings = {
             ["rust-analyzer"] = {
-                check= {
-                    command = "clippy"
-                }
-            }
-        }
+                check = {
+                    command = "clippy",
+                },
+            },
+        },
     },
     dap = {
         adapter = require("rust-tools.dap").get_codelldb_adapter(codelldb_path, liblldb_path),

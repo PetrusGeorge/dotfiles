@@ -108,4 +108,8 @@ return {
             return require "configs.nvimtree"
         end,
     },
+    {
+        "christoomey/vim-tmux-navigator",
+        lazy = false,
+    },
 }
